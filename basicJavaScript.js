@@ -10,3 +10,10 @@ myList.push(
   ["Ice-cream", 10],
   ["Spagetti", 3]
 );
+
+/*Passing Values to Functions with Arguments */
+function functionWithArgs(a, b) {
+  console.log(a + b);
+}
+
+functionWithArgs(20, 25);
