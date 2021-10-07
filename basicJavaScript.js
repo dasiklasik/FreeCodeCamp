@@ -109,3 +109,17 @@ function testLessThan(val) {
 
   return "55 or Over";
 }
+
+/*Comparison with the Less Than Or Equal To Operator */
+
+function testLessOrEqual(val) {
+  if (val <= 12) {
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 12) {
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
