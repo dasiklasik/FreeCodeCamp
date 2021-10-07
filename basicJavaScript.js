@@ -17,3 +17,8 @@ function functionWithArgs(a, b) {
 }
 
 functionWithArgs(20, 25);
+
+/*Return a Value from a Function with Return */
+function timesFive(num) {
+  return num * 5;
+}
