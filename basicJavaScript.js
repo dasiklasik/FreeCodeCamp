@@ -327,3 +327,11 @@ function cc(card) {
 
   return count + " " + res;
 }
+
+/*Build JavaScript Objects */
+var myDog = {
+  name: "Harry",
+  legs: 4,
+  tails: 1,
+  friends: ["Henry", "Dasha", "Mom"],
+};
