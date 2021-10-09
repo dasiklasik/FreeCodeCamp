@@ -384,3 +384,22 @@ function checkObj(obj, checkProp) {
     return "Not Found";
   }
 }
+
+/*Manipulating Complex Objects */
+
+var myMusic = [
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
+
+  {
+    artist: "test",
+    title: "test",
+    release_year: 2021,
+    formats: ["CD", "8T", "LP"],
+  },
+];
